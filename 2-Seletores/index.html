@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p {
+            color: rgb(28, 156, 156);
+            font-style: italic;
+        }
+
+        .exemplo {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #fontes {
+            font-size: 32px;
+            color: blueviolet;
+            font-style: italic;
+        }
+
+        [type='text'] {
+            border: 1px solid orange;
+            color: black;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div.exemplo {
+            background-color: yellow;
+            font-style: italic;
+            color: cadetblue;        
+        }
+
+        div > p {
+            color: green;
+
+        }
+
+        p + h3 {
+            margin-top: 30px;
+            color: rgb(44, 192, 192);
+            font-style: italic;
+            background-color: antiquewhite;
+        }
+    
+        p ~ h3 {
+            font-style: italic;
+        }
+
+        div ul li {
+            list-style-type: square;
+            color: rgb(56, 82, 73);
+            background-color: rgba(34, 22, 22, 0.288);
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        div ul {
+            color: blueviolet;
+            font-size: 25px;
+            font-style: initial;
+        }
+
+
+    </style>
+    <title>Seletores</title>
+</head>
+<body>
+
+    <p>seletor por elemento</p>
+    <p class="exemplo">seletor por classe</p>
+    <p class="exemplo" id="fontes">seletor por ID</p>
+    <p class="exemplo" type="text">seletor por atributo</p>
+    <div class="exemplo">seletor por combinação</div>
+    <div>
+        <p>seletor tipo pai > filho</p>
+        <h3>seletor adjacente</h3>
+        <h3>seletor irmão</h3>
+        <ul>seletor decendente
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+
+</body>
+</html>
