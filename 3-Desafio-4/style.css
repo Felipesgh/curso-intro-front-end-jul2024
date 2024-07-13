@@ -1,0 +1,9 @@
+@media (min-width: 414px) and (max-width: 896px){
+    body {
+        background-color: cornflowerblue;
+    }
+    p {
+        font-style: italic;
+        font-size: 34px;
+    }
+}
