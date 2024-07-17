@@ -1,0 +1,24 @@
+div > div {
+    background-color: blueviolet;
+            border: 1px solid;
+            margin: 2px;
+            flex: 1;
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    background-color:antiquewhite;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.intem-1 {
+    
+    
+}
